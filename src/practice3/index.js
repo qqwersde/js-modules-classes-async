@@ -58,6 +58,9 @@ export const getPoetryTwo = async () => {
       arr.push(author);
       const { content } = data;
       arr.push(content);
+    })
+    .catch((err) => {
+      console.log(err);
     });
   return arr;
 };
