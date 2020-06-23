@@ -1,5 +1,5 @@
 // eslint-disable-next-line no-unused-vars
- export const getPoetry = async () => {
+export const getPoetry = async () => {
   // eslint-disable-next-line no-unused-vars,no-param-reassign,no-undef
   const url = "https://v1.jinrishici.com/all.json";
   const arr = [];
